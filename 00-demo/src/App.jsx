@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="cont-app">
       <h1>Trampando com React</h1>
+      <br />
       <h2>Onde posso trampar como dev?</h2>
       <p>
         Empresas e Software Houses: Consultorias e fábricas de software que desenvolvem aplicações sob demanda para terceiros.
@@ -24,6 +25,7 @@ function App() {
         Setor Público: Órgãos governamentais e universidades por meio de estágios, contratos temporários ou concursos públicos para cargos técnicos.
       </p>
 
+ <br />
       <h2>Trampos com tecnologia mas sem programação</h2>
       <p>
         Gostar de tecnologia sem ter afinidade com código não é um obstáculo. O mercado de TI é gigante e depende fortemente de funções que focam em pessoas, processos, design, dados e negócios.
@@ -36,8 +38,16 @@ function App() {
         <li>Dados e Inteligência de Negócio</li>
         <li>Vendas Técnicas e Sucesso do Cliente</li>
       </ul>
-
-
+     <h2>Vou fazer faculdade de outra coisa, ser dev vai me ajudar?</h2>
+      <p>Fazer outra faculdade tendo bagagem de dev não é "jogar conhecimento fora" — é ganhar um superpoder estratégico. No mercado moderno, o profissional mais valioso raramente é o especialista puro de uma única área, mas sim o profissional em "T": alguém com conhecimento profundo em um domínio específico (Sua Nova Faculdade) e alta capacidade técnica transversal (Sua Bagagem de Dev).</p>
+      <ul>
+        <li>Algoritmos</li>
+        <li>Analise de dados</li>
+        <li>Pericia Criminal</li>
+        <li>Engenharia Civil</li>
+        <li>Concursar PRF ou PM</li>
+      </ul>
+      
 
     </div>
   )

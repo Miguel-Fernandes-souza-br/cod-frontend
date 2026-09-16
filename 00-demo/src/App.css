@@ -6,7 +6,7 @@ h1{
 }
 
 .cont-app{
-  background-color: #aaa;
+  background-color: hwb(172 88% 0%);
   min-height: 100vh;
 }
 
