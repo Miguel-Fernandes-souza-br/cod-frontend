@@ -1,7 +1,9 @@
 
+import { useState } from 'react';
 import './App.css'
 
 function App() {
+  const[resultado, setResultado] = useState(0)
 
 function relatorio() {
     let pf = 40, pj = 33;
@@ -237,9 +239,25 @@ alert("A força de trabalho da Macrohard conta com um total de " + totalDevs + "
   
   }
 
+  function calcularDobro(){
+    let numero = Number(prompt("Digite o numero A-GO-RA!!!:"));
+    let dobro = numero * 2
+    setResultado(dobro)
+  }
+
   return (
     <div className="cont-app">
       <h1>Javascript no React</h1>
+
+      <hr />
+      <h2>Usando estados</h2>
+      <button onClick={calcularDobro}>Estados - dobro</button>
+
+
+      <p>
+        Resultado da Operaçao: {resultado}
+      </p>
+      <hr />
 
       <h2>Exercicios supimpas</h2>
 
