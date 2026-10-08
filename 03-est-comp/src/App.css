@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 30px;
+  background: #101820;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+div {
+  display: grid;
+  justify-items: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 25px;
+  background: #1c2730;
+  color: white;
+  border: 2px solid #00e5ff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #00e5ff;
+  color: #101820;
+}
+
+h2 {
+  color: #00e5ff;
+  margin-bottom: 5px;
+}
+
+h3 {
+  padding: 12px 20px;
+  background: #1c2730;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 5px;
+}
